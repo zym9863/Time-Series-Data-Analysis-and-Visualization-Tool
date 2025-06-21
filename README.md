@@ -1,3 +1,5 @@
+[English Version (README_EN.md)](README_EN.md)
+
 # 时序数据分析与可视化工具
 
 一个基于Python和Streamlit的时序数据分析与可视化工具，专注于ACF/PACF分析和时序模型识别。
