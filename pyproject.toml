@@ -1,7 +1,16 @@
 [project]
 name = "time-series-data-analysis-and-visualization-tool"
 version = "0.1.0"
-description = "Add your description here"
+description = "时序数据分析与可视化工具 - 支持数据导入、预处理、ACF/PACF分析和可视化"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "matplotlib>=3.10.3",
+    "numpy>=2.3.0",
+    "pandas>=2.3.0",
+    "plotly>=6.1.2",
+    "scipy>=1.15.3",
+    "seaborn>=0.13.2",
+    "statsmodels>=0.14.4",
+    "streamlit>=1.46.0",
+]
