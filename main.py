@@ -297,7 +297,7 @@ def show_visualization_page(plotter):
     # 可视化选项
     viz_option = st.selectbox(
         "选择可视化类型",
-        ["时序图", "数据分布", "统计图表"]
+        ["时序图", "数据分布"]
     )
 
     if viz_option == "时序图":
